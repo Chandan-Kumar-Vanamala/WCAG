@@ -1,14 +1,29 @@
-HEAD
-# React + Vite
+OWASP AND WCAG GUIDELINES SCAN:
+Justification: Why Build This Tool?
+1. No Single Tool Does Both OWASP + WCAG in One Place
+Most tools focus only on security (like OWASP ZAP, Semgrep) or only on accessibility (like axe-core, Pa11y).
+ ✅ Your tool bridges two crucial quality domains — Security and Accessibility — in a single scan/report.
+🔥 "Why should a developer need two tools and two workflows to make their app secure and inclusive?"
+2. One-Click Report for Devs, PMs, and QA
+Your tool doesn’t just scan — it aggregates, tags, and explains:
+Categorizes issues (e.g., “OWASP: Broken Auth” or “WCAG 2.1.1 Keyboard Navigation”)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Gives remediation tips
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Optionally outputs a beautiful HTML/Markdown report for stakeholders.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
+🚀 "We make the results actionable and not just a scary list of warnings."
+3. Unlike large-scale tools that need enterprise setup (like SonarQube or Lighthouse CI), your tool:
+Runs with one command or button
+
+
+Works locally or in CI
+
+
+Supports common stacks like JavaScript/React/Python/Node
+
+
+🎯 "We focused on developer ease-of-use — you don’t need a DevOps team to run this."
